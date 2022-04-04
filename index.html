@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="prime number checker" />
 
+    <meta name="og:title" property="og:title" content="Prime numbers" />
 
-  <!-- goole font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <meta name="twitter:card" content="summary" />
 
-<!-- css -->
-<link rel="stylesheet" href="styles.css">
+    <!-- goole font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>Prime Number Checker</title>
-</head>
-<body>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- <h1>Prime Number Checker</h1>
+    <title>Prime Number Checker</title>
+  </head>
+  <body>
+    <!-- <h1>Prime Number Checker</h1>
   <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
 <lord-icon
     src="https://cdn.lordicon.com/ybgqhhgb.json"
@@ -26,43 +32,43 @@
     style="width:250px;height:250px">
 </lord-icon> -->
 
-<section class="app">
+    <section class="app">
+      <main class="check__border">
+        <h1 class="checker__header">
+          Prime Number Checker
+          <span class="checker__icon">
+            <lord-icon
+              class="checker__icon__img"
+              src="https://cdn.lordicon.com/dxoycpzg.json"
+              trigger="loop"
+              style="width: 60px; height: 60px"
+            >
+            </lord-icon>
+          </span>
+        </h1>
+        <!-- <form action="#"> -->
+        <input
+          type="number"
+          name="check prime number"
+          placeholder="Input a number"
+          ,
+          class="input__value"
+        />
+        <input type="submit" value="Check" class="btn" />
+        <!-- </form> -->
 
-  <main class="check__border">
-    
-    <h1 class="checker__header">Prime Number Checker 
-      <span class="checker__icon">
-      <lord-icon
-          class="checker__icon__img"
-          src="https://cdn.lordicon.com/dxoycpzg.json"
-          trigger="loop"
-          style="width:60px;height:60px">
-      </lord-icon>
-      </span> 
-    
-    </h1>
-    <!-- <form action="#"> -->
-      <input type="number" name="check prime number" placeholder="Input a number", class="input__value">
-      <input type="submit" value="Check" class="btn">
-    <!-- </form> -->
+        <!-- Results -->
+        <div class="results">
+          <h3></h3>
+        </div>
 
-    <!-- Results -->
-    <div class="results">
-      <h3></h3>
-    </div>
+        <footer>
+          <small>Powered by clevernat <span>2022</span> </small>
+        </footer>
+      </main>
+    </section>
 
-    <footer>
-      <small>Powered by clevernat <span>2022</span> </small>
-    </footer>
-  </main>
-
-</section>
-
-
-
-
-
-  <script src="main.js"></script>
-  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
-</body>
+    <script src="main.js"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+  </body>
 </html>
